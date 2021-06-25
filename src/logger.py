@@ -1,14 +1,7 @@
 from logging import getLogger, StreamHandler, FileHandler, Formatter, DEBUG, INFO
 
-# loggers = {}
-
 
 def setup_logger(name, logfile='debug.log'):
-    # global loggers
-
-    # if loggers.get(name):
-    #     return loggers.get(name)
-
     logger = getLogger(name)
     logger.setLevel(DEBUG)
     logger.propagate = False
@@ -32,7 +25,6 @@ def setup_logger(name, logfile='debug.log'):
 
     logger.addHandler(info_handler)
     logger.addHandler(debug_handler)
-    # loggers[name] = logger
     return logger
 
 
