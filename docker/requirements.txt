@@ -3,3 +3,4 @@ scipy
 pandas
 pandas-profiling
 jupyterlab
+ipywidgets
