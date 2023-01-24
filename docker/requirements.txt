@@ -1,6 +1,14 @@
+jupyterlab
 numpy
 scipy
 pandas
 pandas-profiling
-jupyterlab
+polars
+matplotlib
+japanize-matplotlib
+seaborn
+scikit-learn
+umap-learn
 ipywidgets
+tqdm
+python-dotenv
