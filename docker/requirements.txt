@@ -2,9 +2,9 @@ jupyterlab
 numpy
 scipy
 pandas
-pandas-profiling
+ydata-profiling
 polars
-matplotlib
+matplotlib==3.7
 japanize-matplotlib
 seaborn
 scikit-learn
